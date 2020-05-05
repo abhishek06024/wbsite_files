@@ -1,4 +1,65 @@
-body{
-    background-color: black;
+/* CSS Resat */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navigation Bar1 */
+#navbar1{
+    font: 20px "Noto Sans";
+    height: 55px;
+    display: flex;
+    align-items:center;
+    border: 0.5px solid white;
+    box-shadow: 3px 2px 15px 5px rgb(222, 223, 221);
+    
+}
 
+/* Navbar1 logo  */
+
+#social_media{
+    position: absolute;
+    right: 25px;
+}
+
+#social_media a {
+    margin: 25px 1px;
+}
+
+
+
+
+#social_media  img {
+    height: 18px;
+    margin: 25px 1px;
+}
+
+/* Navbar1 List items  */
+#navbar1 ul{
+    display:flex;
+    margin-left: 25px;
+}
+
+#navbar1 ul li{
+    
+    list-style: none;
+    font-size: 0.88rem;
+}
+#navbar1 ul li a{
+    color: rgb(110, 106, 106);
+    display: block;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+#navbar2{
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    border: 2px solid black;
+    margin-top: 37px;
+    width:100vw;
+    /* grid-column-gap: 1rem; */
+    grid-auto-rows: 2fr;
+}
+#navbar2 img{
+    padding: 15px 15px;
 }
