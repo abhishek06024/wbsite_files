@@ -58,8 +58,12 @@
     margin-top: 37px;
     width:100vw;
     /* grid-column-gap: 1rem; */
-    grid-auto-rows: 2fr;
+    align-items: center;
+   justify-items: center;
+    
 }
 #navbar2 img{
     padding: 15px 15px;
+    
 }
+
